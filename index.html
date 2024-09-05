@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Circle Design</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: lightpink; /* Similar to the pink background in the image */
+        }
+
+        .container {
+            display: flex;
+            gap: 20px;
+        }
+
+        svg {
+            background-color: #f4b6c2;
+            border-radius: 10px;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <!-- Filled Circle -->
+        <svg width="200" height="200">
+            <circle cx="100" cy="100" r="80" fill="red" />
+        </svg>
+
+        <!-- Outlined Circle -->
+        <svg width="200" height="200">
+            <circle cx="100" cy="100" r="80" fill="none" stroke="red" stroke-width="10" />
+        </svg>
+    </div>
+
+</body>
+</html>
